@@ -1,0 +1,102 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dth/web-app_2_3.dth" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>AdminLogin</servlet-name>
+		<display-name>AdminLogin</display-name>
+		<description></description>
+		<servlet-class>AdminLogin</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AdminCheck</servlet-name>
+		<display-name>AdminCheck</display-name>
+		<description></description>
+		<servlet-class>AdminCheck</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Adminpanelcheck</servlet-name>
+		<display-name>Adminpanelcheck</display-name>
+		<description></description>
+		<servlet-class>Adminpanelcheck</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Adminpanelagent</servlet-name>
+		<display-name>Adminpanelagent</display-name>
+		<description></description>
+		<servlet-class>Adminpanelagent</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Agentcheck</servlet-name>
+		<display-name>Agentcheck</display-name>
+		<description></description>
+		<servlet-class>Agentcheck</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Bookingcheck</servlet-name>
+		<display-name>Bookingcheck</display-name>
+		<description></description>
+		<servlet-class>Bookingcheck</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>Ticketscheck</display-name>
+		<servlet-name>Ticketscheck</servlet-name>
+		<servlet-class>Ticketscheck</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>Logout</display-name>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>Logout</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>Confirmation</display-name>
+		<servlet-name>Confirmation</servlet-name>
+		<servlet-class>Confirmation</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminLogin</servlet-name>
+		<url-pattern>/AdminLogin</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AdminCheck</servlet-name>
+		<url-pattern>/AdminCheck</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Adminpanelcheck</servlet-name>
+		<url-pattern>/Adminpanelcheck</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Adminpanelagent</servlet-name>
+		<url-pattern>/Adminpanelagent</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Agentcheck</servlet-name>
+		<url-pattern>/Agentcheck</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Bookingcheck</servlet-name>
+		<url-pattern>/Bookingcheck</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Ticketscheck</servlet-name>
+		<url-pattern>/Ticketscheck</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Confirmation</servlet-name>
+		<url-pattern>/Confirmation</url-pattern>
+	</servlet-mapping>
+</web-app>
+
+	
